@@ -15,11 +15,16 @@
 	display: flex;
 	margin:auto;
 }
-.navbar-nav .nav-link{
-	color:#555;
+.navbar-nav{
+	width: 100%;
 }
+.navbar-nav, .nav-item .nav-link{
+	color:#555;
+	background-color: white;
+}
+
 #login {
-	margin-left: 900%;
+	margin-left: 1000%;
 	margin-top: 0px;
 	color:#555;
 }
@@ -52,7 +57,8 @@
 }
 .news_section{
 	width: 100%;
-	margin:auto;
+	margin:80px auto 0 auto;
+
 }
 p {
 	font-size: 0.8rem;
@@ -72,6 +78,7 @@ footer a{
 .form-group{
 	margin: auto;
 	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #search_text{
 	margin-right: 10px;
@@ -85,12 +92,18 @@ footer a{
 	margin-top: 0px;
 	color:#555;
 }
-
+.navbar{
+	background-color: orange !important;
+	font-size: 0.9rem;
+	height: 3rem;
+	letter-spacing: 0rem;
+	margin:auto;
+}
 }
 
 @media screen and (max-width: 992px){
 	#login{
-		margin-left: 300%;
+		margin-left: 100%;
 	}
 	.navbar{
 	background-color: orange !important;
@@ -114,25 +127,42 @@ footer a{
 }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 576px){
 		.navbar{
 	background-color: orange !important;
-	font-size: 0.5rem;
+	font-size: 1rem;
 	height: 3rem;
 	margin:1px;
 	padding-left:5px;
 
 }
-#login{
-	float:right;
-}
+
+
 .nav-link {
-	float:left;
+	float:right;
+	margin-right: 20px;
 }
 
 .navbar-nav li{
 	margin: 1px;
 	padding: 1px;
 	text-align: left;
+}
+#first-post{
+	margin-top: 120px;
+}
+.post {
+	margin:0;
+	padding: 0px 30px 0px 30px;
+}
+.row{
+	margin-top:-20px!important;
+}
+.headline{
+	margin-top: 40px;
+}
+footer{
+	margin-top: -50px;
+	padding: 0px 10px 0px 10px;
 }
 }

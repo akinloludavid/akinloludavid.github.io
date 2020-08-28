@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*HOME STYLE*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat';
+
+}
+body{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	//overflow-x: hidden;
+}
+.container{
+	width: 80%;
+}
+.container-fluid{
+	width:	100%;
+}
+.navbar {
+	width:100%;
+	margin:auto;
+  font-weight: 900;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  background-color: #2f3542!important;
+  opacity: .8;
+ // background: rgba(0,0,0, 0.6)!important;
+}
+.navbar-brand img{
+  height:3rem;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+.navbar-brand{
+
+	color:#f1f2f6;
+}
+.navbar-brand:hover{
+	color:#a4b0be!important;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #f1f2f6!important;
+  padding-top: 0.8rem;
+}
+.navbar-dark .nav-item .nav-link:hover{
+	color:#a4b0be!important;
+}
+.navbar-dark .nav-item .nav-link:active{
+	color:#57606f!important;
+}
+/*Slider Images*/
+
+
+.carousel-item{
+
+  height:100vh;
+}
+.carousel-item img{
+	width: 100%;
+	height: 100vh;
+}
+.overlay{
+	background-color:#000;
+}
+.image1{
+	opacity:.4;
+}
+.carousel-caption{
+  position:absolute;
+  top: 38%;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+.carousel-caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  margin-top: -60px;
+
+}
+.carousel-caption h3{
+  font-family: 'Montserrat';
+  font-size: 1.8rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  margin-bottom: 80px;
+}
+#carousel4caption h3{
+	position: relative;
+	bottom: 150px;
+}
+#carousel4caption a{
+	margin-top: 80px;
+}
+#getapup{
+	padding: 10px;
+	font-size: 24px;
+}
+.image{
+	display:flex;
+}
+.background img{
+	//filter: blur(3px) ;
+	opacity: .3;
+	transform: scale(.8);
+	position:absolute;
+	margin-left: 60%;
+	margin-top: 60px;
+
+}
+.background .image img:nth-child(even){
+	margin-top: 40%;
+	margin-left: -5%;
+}
+
+.trans{
+	position:relative;
+	margin: 40px 120px 60px 120px;
+}
+.trans h1{
+	//font-size: 2rem;
+}
+.trans p{
+	line-height: 1.8;
+	font-weight: normal;
+	font-size: 16px;
+}
+.funfacts {
+	margin-top:20px;
+}
+.funfacts li{
+	margin-top: 20px;
+}
+.col-md-3 img{
+	width: 100%;
+	height: 100%;
+}
+
+footer{
+	margin: 6rem auto 0;
+	width: 100%;
+	padding: 2rem 2rem;
+	background-color: #2f3542;
+	color:#f1f2f6;
+}
+footer #logo{
+	margin-bottom:1rem;
+	margin-right:1rem;
+	border-radius: 50%;
+}
+footer .footer-logo{
+	display:flex;
+	justify-content: center;
+}
+.social a{
+	font-size: 2.4rem;
+	margin: .5rem;
+}
+.fa-facebook{
+  color: #3b5998;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-phone{
+  color: green;
+}
+.fa-instagram {
+  color: #517fa4;
+}
+.fa-whatsapp{
+	color:#25d366;
+}
+
+/*ABOUT HTML*/
+
+#about_main{
+	margin-top: 120px;
+}
+#flow-profile{
+	display:flex;
+}
+#flow-profile img{
+	margin-right: 30px;
+	width:100px;
+	height: 100px;
+
+}
+#flow-profile img:active{ /*When you click the picture it enlarges and centralize*/
+	transform:scale(3) ;
+	position:relative;
+	left: 200px;
+
+}
+
+iframe{
+	width: 100%;
+	height: 400px;
+}
+/*Media Queries*/
+
+@media screen and (max-width: 576px){
+	.carousel-item{
+	//margin-top:4rem;
+  height:70vh;
+}
+.carousel-item img{
+	width: 100%;
+	height: 70vh;
+}
+
+.carousel-caption{
+  position:absolute;
+  top: 10%;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+.carousel-caption h1{
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+ 
+  margin-top: 15px;
+}
+.carousel-caption h3{
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+   margin-bottom: 60px;
+}
+#carousel4caption h3{
+	font-size: 1.5rem;
+	position: relative;
+	top:10px;
+}
+#carousel4caption a{
+	margin-top: 120px;
+}
+	.trans{
+	position:relative;
+	margin: 40px 30px 60px 40px;
+}
+.trans p{
+	line-height: 1.8;
+
+}
+
+#funfactsimage img{
+	display:none;
+}
+
+
+}

@@ -46,6 +46,11 @@ body{
   padding-right: .7rem;
   
 }
+.navbrand h3 {
+	color: #f1f2f6!important;
+	margin-top: 10px;
+	margin-left: -15px;
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: #f1f2f6!important;
@@ -211,7 +216,15 @@ iframe{
 /*Media Queries*/
 
 @media screen and (max-width: 576px){
-	.carousel-item{
+
+.navbrand h3 {
+	display:none;
+	color: #f1f2f6!important;
+	margin-top: 10px;
+	margin-left: -15px;
+}
+
+.carousel-item{
 	//margin-top:4rem;
   height:70vh;
 }

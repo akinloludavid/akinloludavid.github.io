@@ -1,0 +1,150 @@
+body{
+	text-align:center;
+	font-size:2rem;
+	font-family: Montserrat, 'Arial', sanserif ;
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+
+}
+
+
+.app-wrap{
+	//background:#0652DD;
+	background:url(./img/1.jpg);
+	background-size: cover;
+	
+	max-width: 100%;
+	width: 900px;
+	min-height: 100vh;
+	height: auto;
+	margin:auto;
+	margin-top: 0;
+	z-index: 1;
+}
+#sun{
+	width: 60px;
+	height: 60px;
+	position: relative;
+	top:20px;
+	animation: sun 30s ease-in infinite;
+	animation-fill-mode: backwards;
+	z-index: 2;
+}
+
+@keyframes sun {
+	0%{
+		transform:rotateZ(0deg);
+		opacity:1;
+	}
+	45%{
+		opacity:.2;
+	}
+	48%{
+		
+		opacity:.3;
+	}
+		55%{
+		opacity:.5;
+	}
+	100%{
+		transform: rotateZ(360deg);
+		opacity: 1;
+	}
+}
+
+
+ header h1{
+ 	color:#f1f1ff;
+ }
+input{
+	width: 60%;
+	height: 40px;
+	font-size: 1.5rem;
+	border-radius: 30px;
+	border: 1px solid #a4b0be;
+	padding: 5px;
+}
+input::focus{
+	border-radius: 20px!important;
+}
+
+.location .city{
+	margin-top: 20px;
+	font-size: 2rem;
+	color: #f3f3e3;
+}
+.location .date{
+	margin-top: 30px;
+	font-style: italic;
+	font-size: 1rem;
+	color:#f3f3e3;
+}
+.current {
+	margin-bottom: 6rem;
+}
+.current .temp{
+	font-size: 4rem;
+	font-weight: bold;
+	text-shadow: 2px 4px 6px gray;
+	color: #f3f3e3;
+	margin-bottom: 15px;
+}
+.current .weather{
+	color:#f3f3e3;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+.current .hi-low{
+	color:#f3f3e3;
+	margin-bottom: 20px;
+
+}
+footer{
+	width:100%;
+}
+footer p{
+	font-size:1rem;
+	font-style: italic;
+	color:#f3f3e3;
+	
+
+}
+
+@media screen and (max-width: 576px){
+	.app-wrap{
+			width: 100%;
+			max-width: 576px;
+		}
+	.current {
+		margin-bottom: 4rem;
+	}
+	.current .temp{
+		font-size: 4rem;
+		font-weight: bold;
+		text-shadow: 2px 4px 6px black;
+		color: #f3f3e3;
+		margin-bottom: 15px;
+	}
+	.current .weather{
+		color:#f3f3e3;
+		font-size: 1.5rem;
+		margin-bottom: 20px;
+	}
+	.current .hi-low{
+		color:#f3f3e3;
+		margin-bottom: 20px;
+
+	}
+	footer{
+		width:100%;
+	}
+	footer p{
+		font-size:1rem;
+		font-style: italic;
+		color:#f3f3e3;
+		margin:auto;	
+
+
+	}
+}

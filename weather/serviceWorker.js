@@ -1,4 +1,4 @@
-const cacheArr = ['/', './css/*'];
+const cacheArr = ['/*', './img/*'];
 const CACHE_NAME = 'cache-v1'
 self.addEventListener('install', (event)=>{
     console.log('worker is installed');

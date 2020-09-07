@@ -10,7 +10,6 @@ body{
 
 
 .app-wrap{
-	//background:#0652DD;
 	background:url(./img/1.jpg);
 	background-size: cover;
 	
@@ -55,7 +54,8 @@ body{
 
 
  header h1{
- 	color:#f1f1ff;
+	 color:#f1f1ff;
+	 
  }
 input{
 	width: 60%;

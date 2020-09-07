@@ -3,8 +3,15 @@
 	"short_name": "weather",
 	"start_url": "/index.html",
 	"display": "standalone",
-	"background_color":"#FFE9D2",
-	"theme_color": "#FFE1C4",
-	"orientation": "portrait-primary"
+	"background_color":"#38ada9",
+	"theme_color": "#0a3d62",
+	"orientation": "portrait-primary", 
+	"icons": [
+		{
+			"src": "./img/icon.png",
+			"type" : "image/png",
+			"sizes" : "144 x 144"
+		}
+	]
 	
 }

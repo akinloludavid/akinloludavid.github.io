@@ -202,12 +202,6 @@ footer .footer-logo{
 	height: 100px;
 
 }
-#flow-profile img:active{ /*When you click the picture it enlarges and centralize*/
-	transform:scale(3) ;
-	position:relative;
-	left: 200px;
-
-}
 
 iframe{
 	width: 100%;
@@ -243,7 +237,7 @@ iframe{
 }
 .carousel-caption h1{
   font-size: 2.4rem;
-  font-weight: 700;
+  font-weight: lighter;
   letter-spacing: 0.1rem;
  
   margin-top: 15px;
@@ -272,9 +266,28 @@ iframe{
 
 }
 
-#funfactsimage img{
-	display:none;
-}
+	#funfactsimage img{
+		display:none;
+	}
+
+	.footer-logo {
+		display: block!important;
+	}
 
 
+	#flow-profile{
+		display:block;
+	}
+	#flow-profile img{
+		display:block;
+		margin: auto;
+		border-radius: 50%;
+		width:120px;
+		height: 120px;
+
+	}
+	#flow-profile p{
+		margin:auto;
+		text-align:center;
+	}
 }

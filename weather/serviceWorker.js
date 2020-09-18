@@ -1,4 +1,4 @@
-const cacheArr = ['.weather/index.html','.weather/style.css', '.weather/main.js', '.weather/manifest.json', '.weather/img/*'];
+const cacheArr = ['./index.html','./style.css', './main.js', './manifest.json', './img/*'];
 const CACHE_NAME = 'cache-v1';
 self.addEventListener('install', (event)=>{
     console.log('worker is installed');

@@ -88,11 +88,13 @@ body{
 
 }
 .carousel-caption h1{
+  font-family: 'Montserrat';
+  letter-spacing: 0.1rem;
+  font-weight: normal;
   font-size: 3rem;
-  font-weight: 700;
-  letter-spacing: 0.3rem;
-  margin-top: -60px;
-
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  margin: -120px auto 240px auto;
 }
 .carousel-caption h3{
   font-family: 'Montserrat';

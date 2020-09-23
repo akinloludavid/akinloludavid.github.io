@@ -211,6 +211,114 @@ iframe{
 }
 /*Media Queries*/
 
+@media screen and (max-width: 1200px){
+	.carousel-caption{
+  position:absolute;
+  top: 10%;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+
+.carousel-caption h1{
+  font-family: 'Montserrat';
+
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.carousel-caption a{
+	margin-top: 120px;
+}
+#carousel4caption h3{
+	font-size: 1.5rem;
+	position: relative;
+	top:10px;
+}
+#carousel4caption a{
+	font-size: 1rem;
+	margin-top: 200px;
+}
+}
+
+@media screen and (max-width: 992px){
+	.carousel-caption{
+  position:absolute;
+  top: 10%;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+
+.carousel-caption h1{
+  font-family: 'Montserrat';
+
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.carousel-caption a{
+	margin-top: 160px;
+}
+#carousel4caption h3{
+	font-size: 1.5rem;
+	position: relative;
+	top:10px;
+}
+#carousel4caption a{
+	font-size: 1rem;
+	margin-top: 240px;
+}
+}
+
+@media screen and (max-width: 768px){
+		.carousel-caption{
+  position:absolute;
+  top: 10%;
+  text-transform: uppercase;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+
+}
+
+.carousel-caption h1{
+  font-family: 'Montserrat';
+
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.carousel-caption a{
+	margin-top: 100px;
+}
+#carousel4caption h3{
+	font-size: 1.5rem;
+	position: relative;
+	top:20px;
+}
+#carousel4caption a{
+	
+	margin-top: 240px;
+}
+}
+
+
+
+
 @media screen and (max-width: 576px){
 
 .navbrand h3 {
@@ -247,7 +355,11 @@ iframe{
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
   margin-top: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+}
+.carousel-caption a{
+	font-size:14px;
+	margin-top: 50px;
 }
 #carousel4caption h3{
 	font-size: 1.5rem;
@@ -256,7 +368,7 @@ iframe{
 }
 #carousel4caption a{
 	font-size: 14px;
-	margin-top: 120px;
+	margin-top: 100px;
 }
 .trans{
 	position:relative;
@@ -320,9 +432,10 @@ iframe{
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
   margin-top: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .carousel-caption a{
+	margin-top: 90px;
 	font-size: .8rem;
 }
 #carousel4caption h3{
@@ -367,9 +480,10 @@ iframe{
   font-size: 1.2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
-  margin: 20px auto 80px auto;
+  margin: 20px auto 20px auto;
 }
 .carousel-caption a{
+	margin-top: 60px;
 	font-size: 14px;
 }
 #carousel4caption h3{
@@ -378,7 +492,7 @@ iframe{
 	top:20px;
 }
 #carousel4caption a{
-	margin-top: 120px;
+	margin-top: 80px;
 	word-wrap: break-word;
 	font-size:14px;
 }

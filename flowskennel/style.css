@@ -240,7 +240,7 @@ iframe{
   font-family: 'Montserrat';
 
   letter-spacing: 0.1rem;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 1.5rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
@@ -361,14 +361,14 @@ iframe{
 .carousel-caption h1{
   font-family: 'Montserrat';
   letter-spacing: 0.1rem;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 1.2rem;
   text-shadow: .1rem .1rem .5rem black;
   padding-bottom: 1.6rem;
   margin: 20px auto 80px auto;
 }
 .carousel-caption a{
-	font-size: .8rem;
+	font-size: 14px;
 }
 #carousel4caption h3{
 	font-size: 1rem;
@@ -378,10 +378,10 @@ iframe{
 #carousel4caption a{
 	margin-top: 120px;
 	word-wrap: break-word;
-	font-size:12px;
+	font-size:14px;
 }
 #getapup{
 	padding: 5px;
-	font-size: 12px;
+	font-size: 14px;
 }
 }

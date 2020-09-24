@@ -53,7 +53,7 @@ p{
 }
 
 #myMenu{
-	display: block;
+	display: none;
 	justify-content: space-around;
 	background-color: hsl(0, 0%, 100%);
 	position:absolute;

@@ -24,7 +24,7 @@ p{
 	margin:auto;
 	box-shadow: 2px 2px 4px hsl(220, 16%, 96%);
 	position: fixed;
-	
+	z-index: 999999;
 }
 .navbar-brand{
 	margin-left: 10%;
@@ -51,6 +51,31 @@ p{
 	padding-bottom: 20px;
 	border-bottom: 4px solid hsl(136, 65%, 51%);
 }
+
+#myMenu{
+	display: block;
+	justify-content: space-around;
+	background-color: hsl(0, 0%, 100%);
+	position:absolute;
+	left:30%;
+	z-index: 999999;
+	width: 40%;
+	padding:2%;
+	margin-top: 4rem;
+	border-radius: 4px;
+
+}
+.menu-div ul li{
+	list-style: none;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-left: -20%;
+}
+.menu-div ul li a{
+	text-decoration: none;
+	color: hsl(233, 26%, 24%);
+
+}
 .request-button{
 	padding: 10px 20px 10px 20px;
 	background-image: linear-gradient(to left,hsl(192, 70%, 51%), hsl(136, 65%, 51%));
@@ -66,6 +91,11 @@ p{
 	margin-left: 18rem;
 }
 
+#menu{
+	display:none;
+	width: 40px;
+
+}
 
 /*Section 1*/
 
@@ -496,12 +526,30 @@ footer{
 	margin-left: 18rem;
 	display:none;
 }
-
-
+.toggle-button{
+	margin-left: 65%;
+}
+#menu{
+	display:block;
+	width: 25px;
+	margin-top:15px;
 
 }
 
-@media screen and (max-width: 768px){
+#myMenu{
+	display: none;
+	justify-content: space-around;
+	background-color: hsl(0, 0%, 100%);
+	position:absolute;
+	left:30%;
+	z-index: 999999;
+	width: 40%;
+	padding:2%;
+	margin-top: 4rem;
+	border-radius: 4px;
+
+}
+
 	footer{
 		display: block;
 		text-align: center;
@@ -556,6 +604,15 @@ footer section ul{
 .navbar{
 	z-index: 999999;
 }
+.toggle-button{
+	margin-left: 60%;
+}
+#menu{
+	display:block;
+	width: 25px;
+	margin-top:15px;
+
+}
 .section1{
 	display:flex;
 	flex-flow: column;
@@ -567,11 +624,12 @@ footer section ul{
 
 }
 .section1-col1{
-	margin:1rem auto 2rem auto;
-	width:100%;
+	margin:1rem auto 0 auto;
+	width:80%;
 	text-align: center;
 	order: 2;
 }
+
 .section1-col1 h1{
 	font-size: 2.4rem;
 	font-weight: 300;
@@ -582,6 +640,9 @@ footer section ul{
 	
 	font-weight: 300;
 	margin-bottom: 2rem;
+}
+#section1button{
+	margin-bottom: 4rem;
 }
 .section1-col2{
 	background:url('./images/bg-intro-mobile.svg') center/ 100% auto no-repeat scroll;
@@ -660,4 +721,33 @@ footer section ul{
 	box-shadow: 0 2px 8px hsl(0, 0%, 80%);
 }
 
+}
+
+@media screen and (max-width: 480px){
+
+
+.toggle-button{
+	margin-left: 40%;
+}
+#menu{
+	display:block;
+	width: 25px;
+	margin-top:15px;
+
+}
+}
+
+@media screen and (max-width: 375px){
+	.navbar-brand img{
+		width: 80%;
+	}
+	.toggle-button{
+	margin-left: 30%;
+}
+#menu{
+	display:block;
+	width: 25px;
+	margin-top:15px;
+
+}
 }

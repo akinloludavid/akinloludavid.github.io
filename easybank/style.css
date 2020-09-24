@@ -735,6 +735,20 @@ footer section ul{
 	margin-top:15px;
 
 }
+
+#myMenu{
+	display: none;
+	justify-content: space-around;
+	background-color: hsl(0, 0%, 100%);
+	position:absolute;
+	left:30%;
+	z-index: 999999;
+	width: 60%;
+	padding:2%;
+	margin-top: 4rem;
+	border-radius: 4px;
+
+}
 }
 
 @media screen and (max-width: 375px){
@@ -748,6 +762,20 @@ footer section ul{
 	display:block;
 	width: 25px;
 	margin-top:15px;
+
+}
+
+#myMenu{
+	display: none;
+	justify-content: space-around;
+	background-color: hsl(0, 0%, 100%);
+	position:absolute;
+	left:30%;
+	z-index: 999999;
+	width: 80%;
+	padding:2%;
+	margin-top: 4rem;
+	border-radius: 4px;
 
 }
 }

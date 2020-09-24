@@ -540,7 +540,7 @@ footer{
 	display: none;
 	justify-content: space-around;
 	background-color: hsl(0, 0%, 100%);
-	position:absolute;
+	position:fixed;
 	left:30%;
 	z-index: 999999;
 	width: 40%;
@@ -617,7 +617,7 @@ footer section ul{
 	display: none;
 	justify-content: space-around;
 	background-color: hsl(0, 0%, 100%);
-	position:absolute;
+	position:fixed;
 	left:25%;
 	z-index: 999999;
 	width: 50%;
@@ -753,7 +753,7 @@ footer section ul{
 	display: none;
 	justify-content: space-around;
 	background-color: hsl(0, 0%, 100%);
-	position:absolute;
+	position:fixed;
 	left:20%;
 	z-index: 999999;
 	width: 60%;
@@ -782,7 +782,7 @@ footer section ul{
 	display: none;
 	justify-content: space-around;
 	background-color: hsl(0, 0%, 100%);
-	position:absolute;
+	position:fixed;
 	left:5%;
 	z-index: 999999;
 	width: 80%;

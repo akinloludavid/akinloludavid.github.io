@@ -1,0 +1,524 @@
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #585962;
+  padding:0;
+  margin:0;
+  overflow-x: hidden;
+
+}
+*{
+  box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+  color:rgb(2, 2, 47)!important;
+}
+
+.navbar {
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  box-shadow: 2px 2px 8px #808e9b;
+  z-index:99999;
+ 
+}
+
+.navbar-brand img{
+  height:2rem;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-light .navbar-nav .nav-link:link {
+  color: #0e1327!important; 
+  padding-top: 0.8rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #0fbcf9!important;
+}
+
+#navbarNavDropdown{
+  text-align:center;
+}
+/*Header image section*/
+
+#home_header{
+  margin-top:4rem;
+}
+#home_header div img {
+  width: 100%;
+ 
+}
+#home_header #first {
+  position:absolute;
+  right: 32%;
+  bottom:150px;
+  font-family: Montserrat;
+  color: #fff!important;
+  text-align:left;
+  margin-right: -100px;
+}
+#home_header #first h1 {
+  text-align:left;
+  line-height: 1.2;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #f3f3f3!important;
+  margin-bottom: 50px;
+}
+#home_header #first p{
+  width: 100%;
+}
+.jumbotron{
+  border-radius:0px!important;
+}
+
+#home_header .carousel-item .carousel-image2{
+  background-image: url("./img/tomiwa/3.jpg");
+  filter:blur(4px);
+  -webkit-filter: blur(4px);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#home_header .carousel-item .carousel-image1{
+  background-image: url("./img/tomiwa/1.jpg");
+  
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*#home_header #second h1 {
+  position:absolute;
+  left: 72%;
+  bottom: 100px;
+  text-align:left;
+  line-height: 1.2;
+  font-size: 3.8rem;
+  font-weight: 700;
+  color:#ffffff!important;
+  font-family: Montserrat;
+  
+  
+}
+#home_header .carousel-inner .carousel-item:nth-child(2)> img{
+  background: rgba(0,0,0,.4)!important;
+}*/
+
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: 1s;
+  transition-property: opacity;
+  width: 100%;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 2;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+
+/*Card*/
+#services {
+  margin:0;
+}
+#services p{
+  margin: 40px 20px;
+}
+#services_section{
+  background-color: hsl(0, 0%, 98%);
+  margin:0;
+  padding-top: 60px!important;
+  margin-bottom: 80px;
+}
+
+#service_header{
+  margin:0!important;
+  border-radius: 0px!important;
+}
+.card {
+  min-height: 100%;
+  box-shadow:0px 2px 8px hsl(0, 0%, 80%);
+  animation-name: card;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.card img{
+  height: 200px;
+  margin-top: 40px;
+}
+.card .card-body{
+  padding: 40px!important;
+}
+@keyframes card {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.flex_content{
+  animation-name: flex;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 20ms;
+}
+@keyframes flex{
+  from {
+    transform: translateX(700px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.flex_content h3{
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+
+.flex_content p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.flex_image{
+  max-height: 800px;
+}
+/*Footer*/
+footer{
+  background-color:#090b0e;
+  
+  padding: 1rem;
+  
+}
+footer h3, footer p{
+  margin-top: 20px;
+  color: #f3f3f3!important;
+}
+.footer_logo img{
+  width: 12rem;
+}
+.social .icons{
+    width: 2rem;
+    margin-left: 2rem;
+}
+
+
+/*ABOUT.HTML*/
+#about_main{
+  margin-top: 6rem;
+}
+.about-flex-content{
+  animation-name: flex;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 20ms;
+}
+.about_flex_header{
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-flex-paragraph{
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+
+
+/*Wedding pictures*/
+.wedding_heading{
+  background-color:yellow;
+  padding: 30px 4%!important;
+}
+.wedding_heading h1{
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Montserrat;
+  
+}
+.wedding_heading p{
+  line-height: 1.5;
+  font-size: 16px;
+}
+.row.no-padding [class *=col-]{
+  padding: 0;
+}
+.portfolio img:hover{
+  transform:scale(1.2);
+  cursor:zoom-in;
+}
+.portfolio{
+  overflow:hidden;
+}
+.portfolio img{
+  max-width: 100%;
+  transition:transform .5s ease-in-out;
+}
+.wedding{
+  margin:0px!important;
+  overflow:hidden!important;
+  padding:0px!important;
+}
+
+
+.wedding_others {
+  padding:10px 3%!important;
+}
+
+/*Graphics.html*/
+.graphics {
+  margin-top: 6rem;
+}
+.graphics h1{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.graphicdesigns{
+  margin-bottom: 40px;
+  margin:auto!important;
+  width: 100%;
+ 
+}
+
+main .graphicdesigns img{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+main .graphicdesigns img:hover{
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
+section .logodesigns {
+  margin:auto!important;
+}
+section .logodesigns img{
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+.logodesigns > div> h1 {
+  font-size:32px;
+  font-weight: 700;
+  font-family: Montserrat;
+  margin-top: 60px;
+}
+
+
+.logo img:hover{
+  filter: brightness(50%);
+  cursor: pointer;
+
+}
+
+
+/*Photographs HTML*/
+
+
+.portrait{
+  margin:0px!important;
+  overflow:hidden!important;
+  padding:0px!important;
+}
+.portrait img{
+  width: 100%;
+ 
+}
+
+/*Video hTML*/
+.portfolio_heading{
+  margin: 6rem auto 2rem auto;
+  text-align:left;
+  width: 80%;
+  
+}
+.portfolio_heading h1{
+  font-size:32px;
+  font-weight: 700;
+  font-family: Montserrat;
+  animation-name: portfolio;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+.portfolio_heading p{
+  animation-name: portfolio;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.motion_graphics .col-md-4 {
+  margin-bottom: 20px;
+}
+.video_caption {
+  margin-top: -3rem;
+  padding:0 1rem;
+  border: 2px solid blue;
+}
+
+.video_caption h3 {
+  margin-top: 30px;
+}
+
+@keyframes portfolio {
+  0%{
+    transform:translateX(-700px);
+    
+  }
+  100%{
+    transform:translateX(0px);
+  }
+
+
+}
+
+.motion_graphics {
+  margin:auto!important;
+  padding: 30px 3%!important;
+}
+
+.motion_graphics video{
+  width:100%;
+  margin-bottom: 40px;
+}
+
+@media(max-width: 768px){
+  .dropdown{
+    margin:auto;
+    
+  }
+  .dropdown-menu{
+    text-align:center!important;
+
+  }
+  .dropdown-menu a{
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    color:#1e272e;
+  }
+  body{
+    background-color: black;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  #home_header #first {
+    position:absolute;
+    right: 32%;
+    bottom:20px;
+    font-family: Montserrat;
+    color: #fff!important;
+    text-align:left;
+    margin-right: -100px;
+  }
+  #home_header #first h1 {
+    text-align:left;
+    line-height: 1.2;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #f3f3f3!important;
+    margin-bottom: 50px;
+  }
+  #home_header #first p{
+    width: 100%;
+  }
+  .carousel-item{
+    height: 80vh;
+  }
+  
+  /*Card*/
+  #services {
+    margin:0;
+  }
+  #services p{
+    margin: 40px 20px;
+  }
+  #services_section{
+    background-color: hsl(0, 0%, 98%);
+    margin:0;
+    padding-top: 60px!important;
+    margin-bottom: 60px;
+  }
+  #services_section .col-md-4{
+      margin-bottom: 60px!important;
+  }
+  #service_header{
+    margin:0!important;
+    border-radius: 0px!important;
+  }
+  .card {
+    min-height: 100%;
+    box-shadow:0px 2px 8px hsl(0, 0%, 80%);
+    margin-bottom: 3rem!important;
+    position:relative;
+    animation-name: card;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+  }
+  
+  .card img{
+    height: 200px;
+    margin-top: 40px;
+  }
+  .card .card-body{
+    padding: 40px!important;
+  }
+
+  .row.flex_section [class *=col-]{
+    padding: 0px;
+  }
+  #home_section img{
+    width: 100%;
+    margin:auto;
+  }
+  .service_title {
+    padding: 0 40px!important;
+    
+  }
+  .flex_content {
+    padding: 0 40px!important;
+    margin-top: -40px;
+  }
+}

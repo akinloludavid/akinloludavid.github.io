@@ -1,7 +1,7 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
 body {
-  font-family: 'Lato', sans-serif;
+  
   color: #585962;
   padding:0;
   margin:0;
@@ -13,6 +13,11 @@ body {
 }
 h1, h2, h3, h4, h5, h6{
   color:#0e0e1b!important;
+  font-family: 'Open Sans', sans-serif ;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
 .navbar {
@@ -81,6 +86,7 @@ h1, h2, h3, h4, h5, h6{
   border-radius:0px!important;
 }
 
+/*
 #home_header .carousel-item .carousel-image2{
   background-image: url("./img/tomiwa/3.jpg");
   filter:blur(4px);
@@ -89,10 +95,9 @@ h1, h2, h3, h4, h5, h6{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 #home_header .carousel-item .carousel-image1{
   background-image: url("./img/tomiwa/1.jpg");
-  
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -181,6 +186,10 @@ opacity: 0;
 .card .card-body{
   padding: 40px!important;
 }
+.card .card-body p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
 @keyframes card {
   0%{
     opacity: 0%;
@@ -194,7 +203,7 @@ opacity: 0;
   animation-name: flex;
   animation-duration: 1s;
   animation-timing-function: ease;
-  animation-delay: 20ms;
+  animation-delay: 1s;
 }
 @keyframes flex{
   from {
@@ -215,10 +224,14 @@ opacity: 0;
 .flex_content p {
   line-height: 1.5;
   font-size: 16px;
+  font-weight: 200;
 }
 
 .flex_image{
   max-height: 800px;
+}
+#home_section{
+  margin-bottom: 6rem;
 }
 /*Footer*/
 footer{
@@ -248,7 +261,7 @@ footer h3, footer p{
   animation-name: flex;
   animation-duration: 1s;
   animation-timing-function: ease;
-  animation-delay: 20ms;
+  animation-delay: 1s;
   padding: 20px 40px!important;
 }
 .about-flex-content:nth-child(2){
@@ -471,10 +484,28 @@ section .logodesigns img{
   #home_header #first p{
     width: 100%;
   }
+  #home_header .carousel-item .carousel-image1{
+    background-image: url("./img/tomiwa/1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .carousel-item{
+    height: 60vh;
+  }
+  .wedding_item {
     margin-top: 2.5rem;
     width: 90%;
     height: 60vh;
+  }
+  #home_header .carousel-item .carousel-image1{
+    background-image: url("./img/tomiwa/1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   #wedding_heading {
     position: relative;
@@ -517,8 +548,10 @@ section .logodesigns img{
     margin-top: 40px;
   }
   .card .card-body{
-    padding: 40px!important;
+    padding: 10px!important;
+    margin-bottom: 30px;
   }
+  
 
   .row.flex_section [class *=col-]{
     padding: 0px;
@@ -529,7 +562,10 @@ section .logodesigns img{
   }
   .service_title {
     padding: 0 40px!important;
-    
+    margin-bottom: 2rem;
+  }
+  .row.flex_section{
+    margin-bottom: 3rem;
   }
   .flex_content {
     padding: 0 40px!important;

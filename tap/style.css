@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 h1, h2, h3, h4, h5, h6{
-  color:rgb(2, 2, 47)!important;
+  color:#0e0e1b!important;
 }
 
 .navbar {
@@ -242,13 +242,17 @@ footer h3, footer p{
 
 /*ABOUT.HTML*/
 #about_main{
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .about-flex-content{
   animation-name: flex;
   animation-duration: 1s;
   animation-timing-function: ease;
   animation-delay: 20ms;
+  padding: 20px 40px!important;
+}
+.about-flex-content:nth-child(2){
+  margin-bottom: 60px;
 }
 .about_flex_header{
   font-size: 24px;
@@ -300,8 +304,9 @@ footer h3, footer p{
 }
 
 
-.wedding_others {
-  padding:10px 3%!important;
+.wedding_others.jumbotron {
+  padding:60px 3%!important;
+  margin-bottom: 80px!important;
 }
 
 /*Graphics.html*/
@@ -386,6 +391,8 @@ section .logodesigns img{
   animation-name: portfolio;
   animation-duration: 1s;
   animation-timing-function: ease-out;
+  font-size: 16px;
+  line-height: 1.8;
 }
 .motion_graphics .col-md-4 {
   margin-bottom: 20px;
@@ -465,7 +472,14 @@ section .logodesigns img{
     width: 100%;
   }
   .carousel-item{
-    height: 80vh;
+    margin-top: 2.5rem;
+    width: 90%;
+    height: 60vh;
+  }
+  #wedding_heading {
+    position: relative;
+    top:-100px;
+    
   }
   
   /*Card*/
@@ -519,6 +533,13 @@ section .logodesigns img{
   }
   .flex_content {
     padding: 0 40px!important;
-    margin-top: -40px;
+    margin-top: 0px;
+  }
+  .navbar-brand img{
+    height: 2rem;
+    margin-left:5px;
+  }
+  .navbar-toggler {
+    margin-right: 10px;
   }
 }

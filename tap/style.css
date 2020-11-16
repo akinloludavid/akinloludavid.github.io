@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6{
 }
 p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .navbar {
@@ -215,7 +215,7 @@ opacity: 0;
 }
 .flex_content h3{
   font-size: 24px;
-  font-family: Montserrat;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   margin-bottom: 20px;
 
@@ -269,7 +269,7 @@ footer h3, footer p{
 }
 .about_flex_header{
   font-size: 24px;
-  font-family: Montserrat;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -282,16 +282,7 @@ footer h3, footer p{
 
 
 /*Wedding pictures*/
-.wedding_heading{
-  background-color:yellow;
-  padding: 30px 4%!important;
-}
-.wedding_heading h1{
-  font-size: 32px;
-  font-weight: 700;
-  font-family: Montserrat;
-  
-}
+
 .wedding_heading p{
   line-height: 1.5;
   font-size: 16px;
@@ -327,7 +318,7 @@ footer h3, footer p{
   margin-top: 6rem;
 }
 .graphics h1{
-  font-family: Montserrat;
+  font-family: "Open Sans", sans-serif;
   font-size: 32px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -395,7 +386,7 @@ section .logodesigns img{
 .portfolio_heading h1{
   font-size:32px;
   font-weight: 700;
-  font-family: Montserrat;
+  font-family: "Open Sans", sans-serif;
   animation-name: portfolio;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
@@ -413,7 +404,7 @@ section .logodesigns img{
 .video_caption {
   margin-top: -3rem;
   padding:0 1rem;
-  border: 2px solid blue;
+  border: 1px solid rgb(222, 222, 235);
 }
 
 .video_caption h3 {
@@ -457,9 +448,7 @@ section .logodesigns img{
 
     color:#1e272e;
   }
-  body{
-    background-color: black;
-  }
+ 
 }
 
 
@@ -468,7 +457,6 @@ section .logodesigns img{
     position:absolute;
     right: 32%;
     bottom:20px;
-    font-family: Montserrat;
     color: #fff!important;
     text-align:left;
     margin-right: -100px;
@@ -483,6 +471,7 @@ section .logodesigns img{
   }
   #home_header #first p{
     width: 100%;
+    font-weight: 200;
   }
   #home_header .carousel-item .carousel-image1{
     background-image: url("./img/tomiwa/1.jpg");

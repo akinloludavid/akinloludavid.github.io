@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content = "width= device-width, initial-scale=1">
+	<title>Sparkles Jewelleries Store</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous">
+	<link rel="stylesheet" href="jewelstyle.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/69e22d9a0b.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#topbar1").click(function(){
+				$("#for_more").slideToggle(1000);
+			});
+		});
+	</script>
+</head>
+
+
+<body data-spy = "scroll" data-target = ".navbar">
+<!--Start of Home section-->
+
+	<div id = "home">
+		<nav class= "navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class = "navbar-brand" href="jewelstore.html">Sparkles</a>
+			<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#nav1">
+				<span class = "navbar-toggler-icon"></span>
+			</button>
+			
+			<div class = "collapse navbar-collapse" id = "nav1">
+				<ul class = "navbar-nav ml-auto">
+					<li class = "nav-item"><a class = "nav-link" href="#home">HOME</a></li>
+					<li class = "nav-item"><a class = "nav-link" href="#about">ABOUT</a></li>
+					<li class = "nav-item"><a class = "nav-link" href="#service">SERVICE</a></li>
+					<li class = "nav-item"><a class = "nav-link" href="#contact">TALK WITH US</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class = "container-fluid">
+		<div id = "slider-image" class = "carousel slide" data-ride = "carousel" data-interval = "5000">
+			<ol class = "carousel-indicators">
+				<li data-target = "#slider-image" data-slide-to = "0" class = "active"></li>
+				<li data-target = "#slider-image" data-slide-to = "1"></li>
+				<li data-target = "#slider-image" data-slide-to = "2"></li>
+				<li data-target = "#slider-image" data-slide-to = "3"></li>
+			</ol>
+
+			<div class = "carousel-inner" role= "listbox">
+				<div class = "carousel-item active">
+					<img src="img/pictures/carousel-image1.jpg" class = "img-fluid" width = 100% height = 60%>
+					<div class = "carousel-caption">
+						<h1 style="color:#000">Welcome to Sparkles Jewels</h1>
+						<p style = "color:#000">Elegance and Royalty</p>
+					</div>
+				</div>
+				<div class = "carousel-item">
+					<img src="img/pictures/carousel-image2.jpg" class = "img-fluid" width = 100% height = 60%>
+				</div>
+
+				<div class = "carousel-item">
+					<img src="img/pictures/carousel-image3.jpg" class = "img-fluid" width = 100% height = 60%>
+				</div>
+				<div class = "carousel-item">
+					<img src="img/pictures/carousel-image4.jpg" class = "img-fluid" width = 100% height = 60%>
+				</div>
+			</div>
+
+			<a class = "carousel-control-next" href="#slider-image" role= "button" data-slide = "next"><span class = "carousel-control-next-icon"></span></a>
+			<a class = "carousel-control-prev" href="#slider-image" role = "button" data-slide = "prev"><span class = "carousel-control-prev-icon"></span></a>
+
+		</div>
+		</div>
+
+	</div>
+
+	
+
+
+<!--End of Home section-->
+
+<!--Start of About section-->
+<div id = "about">
+	<div class = "text-center">
+		<div class = "jumbotron container-fluid">
+		<h2 class = "heading">About Us</h2>
+		
+		<hr class = "underline"></div>
+		<p class = "lead">Do you want your folks to keep complimenting your looks and swags? Do you want classy, unique styles to spark up your looks? Sparkle jewels is the best plug for you. Bring out the royalty in you through our beautiful neck chains, earrings, crest rings, wristwatches e.t.c. We do not only take care of your looks, we also provide you with irresistible fragrance through our exotic perfume oils, body sprays, roll on e.t.c. Patronize us today so that you can have that elegant and royal look you deserve at such a friendly price. Scroll down to know more about our services.</p>
+	</div>
+
+</div>
+
+<!--End of About section-->
+
+
+<!--Start of Service section-->
+<div id = "service">
+	<div class = "container-fluid">
+		<div class = "row my-5 no-padding">
+			<div class = "col-md-12 text-center jumbotron">
+				<h2 class = "heading">Our Services</h2>
+				<hr class = "underline">
+			</div>
+			<div class = "service_title">
+				<h2 class = "font-weight-bold">Hi Customer!</h2>
+			</div>
+		</div>
+
+		<div class = "row justify-content-around align-items-center flex-box">
+			<div class = "col-md-5 mb-3">
+				<img src="img/pictures/flex1.jpeg" class = "flex_image" width= 100%>
+			</div>
+			<div class = "col-md-5">
+				<h3 class = "flex_header">Who needs it?</h3>
+				<p class = "flex-paragraph">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+			</div>
+		</div>
+
+		<div class = "row justify-content-around flex-md-row-reverse align-items-center flex-box">
+			<div class = "col-md-5 mb-3">
+				<img src="img/pictures/flex2.jpeg" class = "flex_image" width = 100%>
+			</div>
+			<div class = "col-md-5">
+				<h3 class = "flex_header">Why do we need it?</h3>
+				<p class = "flex-paragraph">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum</p>
+			</div>
+		</div>
+
+		<div class = "row justify-content-around align-items-center flex-box">
+			<div class = "col-md-5 mb-3">
+				<img src="img/pictures/flex3.jpg"class = "flex_image" width = 100%>
+			</div>
+			<div class = "col-md-5">
+				<h3 class = "flex_header">Where can you get it?</h3>
+				<p class = "flex-paragraph">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there.</p>
+			</div>
+		</div>
+
+
+		<div id = "topbar" class = "text-center gallery">Gallery</div>
+			<div id = "panel" class = "row text-center">
+				<div class = "col-md-3 col-sm-6" >
+					<img class = "img-circle" src="img/pictures/click1.jpg" width = 100% height = 60%>
+				</div>
+
+				<div class = "col-md-3 col-sm-6" >
+					<img class = "img-circle" src="img/pictures/click2.jpg" width = 100% height = 60%>
+				</div>
+
+				<div class = "col-md-3 col-sm-6" >
+					<img class = "img-circle" src="img/pictures/click3.jpg" width = 100% height = 60%>
+				</div>
+
+				<div class = "col-md-3 col-sm-6" >
+					<img class = "img-circle" src="img/pictures/click4.jpg" width = 100% height = 60%>
+				</div>
+			</div>
+			<button id = "topbar1" class = "more">Click here for more.</button>
+				<div id = "for_more" class = "row text-center">
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click1.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click2.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click3.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click4.jpg" width = 100% height = 60%>
+						</div>
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click1.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click2.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click3.jpg" width = 100% height = 60%>
+						</div>
+
+						<div class = "col-md-3 col-sm-6" >
+							<img class = "img-circle" src="img/pictures/click4.jpg" width = 100% height = 60%>
+						</div>
+				</div>
+
+		
+	</div>
+</div>
+	
+<!--End of Service section-->
+
+<!--Start of Contact section-->
+
+<div id = "contact">
+	<footer>
+		<div class = "row justify-content-center">
+			<div class = "col-md-5 text-center">
+				<h2 style="color:gold">SPARKLES</h2>
+					<p>We have all the things you need to slay at all times</p>
+					<strong>Contact Info</strong>
+					<p>(888) 888-8888<br>email@sparkles.com</p>
+
+
+			</div>
+			
+		</div>
+
+		<!--- Connect -->
+<div class = "container-fluid padding">
+	<div class = "row text-center padding">
+		<div class = "col-12 social padding">
+			<a href="#"><i class = "fab fa-facebook"></i></a>
+			<a href="#"><i class = "fab fa-twitter"></i></a>
+			<a href="#"><i class = "fab fa-google-plus-g"></i></a>
+			<a href="#"><i class = "fab fa-instagram"></i></a>
+			<a href="#"><i class = "fab fa-youtube"></i></a>
+		</div>
+		
+	</div>
+</div>
+	</footer>
+</div>
+<!--End of Contact section-->
+
+
+
+<!--Start of source script files-->
+
+<!--End of source script files-->
+</body>
+</html>

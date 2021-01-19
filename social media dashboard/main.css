@@ -1,0 +1,525 @@
+body{
+	box-sizing: border-box;
+
+	margin:auto;
+
+}
+.container{
+	background-color: hsl(230, 17%, 14%);
+	color: hsl(0, 0%, 100%);
+	padding:2rem 0rem 2rem 0rem;
+	height: auto;
+	margin:auto;
+}
+.top-background {
+	background-color:hsl(232, 19%, 15%);
+	width: 100%;
+	margin:0 auto;
+	padding:2rem 6rem 0 6rem;
+	height: 30%;
+	position:relative;
+	bottom:2rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	z-index: 1;
+	display:flex;
+}
+.div-header{
+	margin-left: 1%
+}
+#modetext{
+	color:hsl(228, 34%, 66%);
+	position:relative;
+	top:2%;
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.header1{
+	margin-bottom: .3rem;
+	color: hsl(0, 0%, 100%);
+}
+.mode-toggler{
+	display:flex;
+	margin-left: 51%;
+}
+
+.darktext{
+	color:hsl(228, 34%, 66%);
+	margin-bottom: 4rem;
+	font-size:0.8rem;
+	font-weight: 700;
+}
+
+.toggler{
+	width: 2.4rem;
+	height: 1.2rem;
+	border-radius: .6rem;
+	background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+	margin-top: .2rem;
+	margin-left: 1rem;
+	cursor:pointer;
+}
+
+.switch{
+	width: 1.0rem;
+	height: 1.0rem;
+	position:relative;
+	top:.05rem;
+	left:.1rem;
+	border-radius: 50%;
+	background-color: gray;
+	cursor:pointer;
+
+}
+.top-flex{
+	display:inline-flex;
+	margin: auto;
+	text-align: center;
+}
+.top-flex > p{
+	margin-left: 10px;
+	color: hsl(228, 34%, 66%);
+}
+.smCard{
+	width:100%;
+	margin:auto;
+	justify-content: space-around;
+	margin-top:-5rem;	
+	padding: 0rem 6rem 0 6rem;
+	z-index: 2;
+}
+.smcard1{
+	background-color: hsl(228, 28%, 20%);
+	border-radius: 2%;
+	width:23%;
+	height:12rem;
+	padding: 10px;
+	z-index: 3;
+	margin-bottom: 2rem;
+	cursor:pointer;
+
+}
+.smcard1:nth-child(1){
+	border-top:3px solid #3b5998;
+}
+.smcard1:nth-child(2){
+	border-top:3px solid #00acee;
+}
+.smcard1:nth-child(3){
+	border-top:3px solid #d62976;
+}
+.smcard1:nth-child(4){
+	border-top:3px solid #bb0000;
+}
+.smcard1:hover{
+	background-color: #34495e;
+
+}
+.smcard1>h1{
+	color:hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+.smcard1 .follower{
+	color: hsl(228, 34%, 66%);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:0.7rem;
+}
+.smcard1 p:nth-child(4){
+	color:hsl(163, 72%, 41%);
+	font-size:0.6rem;
+	font-weight: 700;
+}
+
+.overview {
+	
+
+	width:100%;
+	margin:auto;
+
+}
+.overview h3{
+	margin-left:-0.5rem;
+	font-size:20px;
+}
+
+.sm-Card2{
+	
+	width:102.5%;
+	justify-content: space-around;
+	padding-left:-1rem;
+}
+.smcard2{
+	width:23%;
+	background-color: hsl(228, 28%, 20%);
+	margin-left: -.5rem;
+	padding:10px;
+	margin-top:1rem;
+	border-radius: 2%;
+	cursor: pointer;
+}
+.smcard2:hover{
+	background-color: #34495e;
+}
+
+.smcard2 div{
+	display:flex;
+}
+.pageviews{
+	margin-left: 1rem;
+	margin-right: 40%;
+	color:hsl(228, 34%, 66%);
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.stat h2{
+	margin-left: 1rem;
+
+	font-size: 22px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+.stat p {
+	margin-top: .5rem;
+	font-size:0.6rem;
+	font-weight: 700;
+	color:hsl(163, 72%, 41%);
+	margin-left: 62%;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color:#00acee;
+}
+.fa-instagram{
+	color: #d62976;
+}
+.fa-youtube{
+	color:#bb0000;
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 20px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.lightmode{
+	background-color: hsl(227, 47%, 96%);
+	color: hsl(230, 17%, 14%);
+}
+
+.darkmode{
+
+}
+
+
+
+/*Media queries*/
+
+@media screen and (max-width: 1200px){
+	
+.container{
+	background-color: hsl(230, 17%, 14%);
+	color: hsl(0, 0%, 100%);
+	padding:1rem 2rem 1rem 2rem;
+	height: auto;
+	margin:auto;
+}
+.top-background {
+	background-color:hsl(232, 19%, 15%);
+	width: 100%;
+	margin:0 auto;
+	padding:2rem 6rem 0 6rem;
+	height: 30%;
+	position:relative;
+	bottom:2rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	z-index: 1;
+	display:flex;
+}
+.div-header{
+	margin-left: 1%
+}
+
+.mode-toggler{
+	display:flex;
+	margin-left: 35%;
+}
+.pageviews{
+	margin-left: 1rem;
+	margin-right: 30%;
+	color:hsl(228, 34%, 66%);
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.stat h2{
+	margin-left: 1rem;
+	
+	font-size: 22px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+.stat p {
+	margin-top: .5rem;
+	font-size:0.6rem;
+	font-weight: 700;
+	color:hsl(163, 72%, 41%);
+	margin-left: 57%;
+}
+
+}
+
+@media screen and (max-width: 992px){
+.container{
+	width: 150%;
+	background-color: hsl(230, 17%, 14%);
+	color: hsl(0, 0%, 100%);
+	padding:1rem 1rem 1rem 1rem;
+	height: auto;
+	margin:auto;
+	position:relative;
+	left:-1rem;
+
+}
+.container-fluid{
+	padding: 0rem 2rem 0rem 2rem;
+}
+.top-background {
+	background-color:hsl(232, 19%, 15%);
+	width: 100%;
+	margin:0 auto;
+	padding:2rem 2rem 0 2rem;
+	height: 30%;
+	position:relative;
+	bottom:2rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	z-index: 1;
+	display:flex;
+}
+	.mode-toggler{
+	display:flex;
+	margin-left: 27%;
+	margin-top: 1%;
+}
+#modetext{
+	color:hsl(228, 34%, 66%);
+	position:relative;
+	top:2%;
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.top-flex > p{
+	margin-left: 10px;
+	color: hsl(228, 34%, 66%);
+
+
+}
+.top-flex{
+	display:inline-flex;
+	margin: auto;
+	text-align: center;
+	font-size: 0.6rem;
+}
+.pageviews{
+	margin-left: 1rem;
+	margin-right: 30%;
+	color:hsl(228, 34%, 66%);
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.stat h2{
+	margin-left: 1rem;
+
+	font-size: 22px;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+}
+.stat p {
+	margin-top: .5rem;
+	font-size:0.6rem;
+	font-weight: 700;
+	color:hsl(163, 72%, 41%);
+	margin-left: 41%;
+}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+	background-color: hsl(230, 17%, 14%);
+	color: hsl(0, 0%, 100%);
+	padding:1rem 0rem 1rem 0rem;
+	height: auto;
+	margin:auto;
+}
+
+.top-background {
+	background-color:hsl(232, 19%, 15%);
+	width: 100%;
+	margin:0 auto;
+	padding:2rem 2rem 0 2rem;
+	height: 30%;
+	position:relative;
+	bottom:2rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	z-index: 1;
+	display:block;
+
+}
+.container-fluid{
+	
+	padding: 0rem 2rem 0rem 2rem;
+	justify-content: space-around;
+}
+.div-header{
+	margin-left: 2%;
+}
+.mode-toggler{
+	display:flex;
+	margin-left: 2%;
+	margin-top: -5%;
+}
+.smcard1{
+	background-color: hsl(228, 28%, 20%);
+	border-radius: 2%;
+	width:46%;
+	height:12rem;
+	z-index: 3;
+	margin-bottom: 2rem;
+	cursor:pointer;
+
+}
+.smcard1:nth-child(3){
+	margin-right: 10px;
+	margin-left:1%;
+}
+
+.overview {
+	
+	
+	width:100%;
+	margin:auto;
+	padding:0;
+}
+.sm-Card2{
+	padding: 0rem 0rem 0rem 0rem;
+	width:100%;
+	margin:auto;
+
+}
+.smcard2{
+	width:46%;
+	background-color: hsl(228, 28%, 20%);
+	margin-top:1rem;
+	border-radius: 2%;
+	cursor: pointer;
+}
+
+
+}
+
+
+@media screen and (max-width: 576px){
+.container{
+	width:100%;
+	background-color: hsl(230, 17%, 14%);
+	color: hsl(0, 0%, 100%);
+	padding:1rem 0rem 1rem 0rem;
+	height: auto;
+	margin:auto;
+}
+.top-background {
+	background-color:hsl(232, 19%, 15%);
+	width: 100%;
+	margin:0 auto;
+	padding:2rem 2rem 0 2rem;
+	height: 30%;
+	position:relative;
+	bottom:2rem;
+	border-bottom-right-radius: 1rem;
+	border-bottom-left-radius: 1rem;
+	z-index: 1;
+	display:block;
+}
+.div-header{
+	margin-left: 4%
+	
+}
+.div-header h3{
+	font-size:2rem;
+}
+
+.mode-toggler{
+	display:flex;
+	margin-left: 4%;
+}
+.darktext{
+	font-size: 1.5rem;
+}
+.toggler{
+	margin-left: 75%;
+}
+.pageviews{
+	margin-left: 1rem;
+	margin-right: 75%;
+	color:hsl(228, 34%, 66%);
+	font-size:0.8rem;
+	font-weight: 700;
+}
+.stat h2{
+	margin-right: 43%;
+}
+
+.container-fluid{
+	
+	padding: 0rem 2rem 0rem 2rem;
+	justify-content: space-around;
+}
+
+.smcard1{
+	background-color: hsl(228, 28%, 20%);
+	border-radius: 2%;
+	width:100%;
+	height:12rem;
+	z-index: 3;
+	margin:0rem .5rem 2rem 0.5rem;
+	
+	cursor:pointer;
+
+}
+.smcard1:nth-child(3){
+margin:0rem .5rem 2rem 0.5rem;
+}
+.overview {	
+	width:100%;
+	margin:auto;
+	padding:0;
+}
+.overview h3{
+	margin-left: .2rem;
+}
+.sm-Card2{
+	padding: 0rem 0rem 0rem 0rem;
+	width:100%;
+	margin:auto;
+	display:block;
+
+}
+
+.smcard2{
+	width:100%;
+	background-color: hsl(228, 28%, 20%);
+	margin:1rem .5rem 2rem 0rem;
+	border-radius: 2%;
+	cursor: pointer;
+	height:auto;
+	padding:20px;
+
+}
+}
+
+
+@media screen and (max-width: 375px){
+	
+}

@@ -2062,9 +2062,9 @@ b, strong {
   left: 15px;
 }
 
-.header-style-1 .topbar li, .header-style-2 .topbar li, .header-style-3 .topbar li {
+.header-style-1 .topbar li a {
   font-weight: 300;
-  color: #cacaca;
+  color: #f8f8f8;
 }
 
 .header-style-1 .topbar .contact-info ul, .header-style-2 .topbar .contact-info ul, .header-style-3 .topbar .contact-info ul {

@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<section class="section pt-0">
+  <div class="container-fluid px-0">
+    <div class="container-fluid bg-dark text-light product-banner" id="action-container">
+      <div class="container pb-5">
+        <section class="section">
+          <div class="col-lg-12">
+            <div class="text-info">{{ .Params.Title }}</div>
+            <h1 class="hero-text text-light">Product Description</h1>
+          </div>
+        </section>
+        <div class="row">
+
+          <div class="col-sm-7 text-center test">
+            <img class="img-fluid" src="/products/deep-learning-notebook/images/logo.png" alt="">
+          </div>
+      
+          <div class="col-5">
+            <div class="row product-description">
+              {{ with $.Page.Resources.GetMatch "short-description.md" }}
+                {{ .Content }}
+              {{ end }}
+            </div>
+            <div class="row mt-3">
+              <div class="col-5">
+                <a href="{{ .Params.ProductLink }}" target="_blank" class="btn btn-primary" role="button">Get Product</a>
+              </div>
+              <div class="col-5">
+                <a href="{{ .Params.InstructionsLink }}" target="_blank" class="btn btn-primary" role="button">Instructions</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 pt-5">
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -47,6 +47,16 @@ disqusShortname = ""
     name = "Deep Learning Notebook"
     URL = "/products/deep-learning-notebook"
     
+    [[menu.main]]
+    parent = "products"
+    name = "Named Entity Recognition"
+    URL = "/products/named-entity-recognition"
+
+    [[menu.main]]
+    parent = "products"
+    name = "Sentiment Analysis"
+    URL = "/products/sentiment-analysis"
+
   [[menu.main]]
   name = "FAQ"
   URL = "faq"

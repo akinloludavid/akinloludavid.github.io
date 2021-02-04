@@ -14,7 +14,7 @@ banner:
 about:
   title : "About Our Solutions"
   content : "Sigmodata offers Amazon AMIs and Sagemaker models that run in your environment. Learn more about our products to find out how to jump start your project."
-  image : "images/laptop.png"
+  image : "images/solution.jpg"
 
 
 mission:
@@ -22,4 +22,4 @@ mission:
   content : "We are a small team of software engineers with experience in Big Data and Machine Learning. 
   Our mission is to empower every data scientist and engineer to be more efficient and productive in their daily tasks.
   The services and APIs we provide are designed to be simple yet powerful, and help make Machine Learning more accessible to everyone."
-  image : "images/data-charts.png"
+  image : "images/mission.png"

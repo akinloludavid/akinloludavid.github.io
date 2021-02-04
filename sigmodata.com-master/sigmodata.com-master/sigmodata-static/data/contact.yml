@@ -7,11 +7,11 @@ contact:
     content : "Our San Jose office is currently remote only. For any information please see the FAQ or contact us at the address below."
     # other information comes from "config.toml"
 
-  # opennig hour
-  opennigHour:
+  # opening hour
+  openingHour:
     title : "Opening Hours"
     dayTimeList:
-      - dayTime : "Monday-Friday: N/A"
+      - dayTime : "Monday-Friday: 9am-5pm"
       # - dayTime : "Monday-Friday: 9am – 5pm"
 
 ####################### google map ########################

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale = 1, user-scalable = 0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+  <link rel = "stylesheet" href = "main.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ 
+</head>
+<body>
+
+  <!--Social Media Dashboard
+  -->
+  <div class=" container-fluid" id = "wrapper">
+
+    <div class="header row" id = "header">
+
+      <div class="header-texts  col-md-6">
+        <h3>Social Media Dashboard</h3>
+        <p>Total Followers: 23,004</p>
+      </div>
+
+
+      <div class="toggle col-md-6  d-flex">
+        <div>
+          <p id = "mode">Light Mode</p>
+        </div>
+        
+    
+        <div class = "toggler bg-dark" id = "toggler">
+          <div id="switch"></div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="followers row text-center">
+
+      <div class = "col-lg-3 col-md-6 col-sm-6" >
+        <div class = "followerCard" id = "facebook">
+           <div class = "handle d-flex text-center justify-content-center">
+            <img src="./images/icon-facebook.svg">
+            <p >@nathanf</p>
+          </div>
+
+          <h1>1987</h1>
+
+          <p class = "follows">FOLLOWERS</p>
+          <hh6 class = "today"><i class = "fa fa-caret-up mr-1"></i>12 Today</h6>
+        </div>
+      </div>
+
+      <div class = "col-lg-3 col-md-6 col-sm-6" >
+        <div class = "followerCard" id = "twitter">
+          <div class = "handle d-flex text-center justify-content-center">
+            <img src="./images/icon-twitter.svg">
+            <p >@nathanf</p>
+          </div>
+          <h1>1044</h1>
+
+          <p class = "follows">FOLLOWERS</p>
+          <h6 class = "today"><i class = "fa fa-caret-up mr-1"></i>99 Today</h6>
+        </div>
+      </div>
+
+      <div class = "col-lg-3 col-md-6 col-sm-6" >
+        <div class =" followerCard" id = "instagram">
+          <div class = "handle d-flex text-center justify-content-center">
+            <img src="./images/icon-instagram.svg">
+            <p>@realnathanf</p>
+          </div>
+          <h1>11k</h1>
+
+          <p  class = "follows">FOLLOWERS</p>
+          <h6 class = "today"> <i class = "fa fa-caret-up mr-1"></i>1099 Today</h6>
+
+        </div>
+      </div>
+
+      <div class = "col-lg-3 col-md-6 col-sm-6 " >
+        <div class = "followerCard" id = "youtube">
+           <div class = "handle d-flex text-center justify-content-center">
+            <img src="./images/icon-youtube.svg">
+            <p>@realnathanf</p>
+          </div>
+
+          <h1>8329</h1>
+
+          <p class = "follows">SUBSCRIBERS</p>
+          <h6 class = "not-today"><i class = "fa fa-caret-down mr-1"></i>144 Today</h6>
+        </div>
+      </div>
+    </div>
+
+
+
+
+<!--Overview-->
+    <div class="overview">
+      <h3>Overview - Today</h3>
+      <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Page Views</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-facebook.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>87</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "up"><i class = "fa fa-caret-up"></i>3%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+           <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Likes</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-facebook.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>52</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "down"><i class = "fa fa-caret-down"></i>2%</h6>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Likes</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-instagram.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>87</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "up"><i class = "fa fa-caret-up"></i>3%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Profile Views</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-instagram.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>52k</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "up"><i class = "fa fa-caret-up"></i>1375%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Retweets</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-twitter.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>117</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "up"><i class = "fa fa-caret-up"></i>303%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+             <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Likes</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-twitter.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>507</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "up"><i class = "fa fa-caret-up"></i>553%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Likes</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-youtube.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>107</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "down"><i class = "fa fa-caret-down"></i>19%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="overview-card d-block">
+              <div class="action d-flex row">
+
+                <div class = "col-md-6 col-xs-6">
+                  <p>Total Views</p>
+                </div>
+                
+                <div class="col-md-6 col-xs-6 d-flex icon">
+                  <img src="./images/icon-youtube.svg">
+                </div>
+                
+              </div>
+
+              <div class="stats d-flex row">
+                <div class = "col-md-6 col-xs-6">
+                  <h3>1407</h3>
+                </div>
+                
+                <div class = "col-md-6 col-xs-6 d-flex icon">
+                  <h6 class = "down"><i class = "fa fa-caret-down"></i>12%</h6>
+                </div>
+
+              </div>
+            </div>
+          </div>
+      
+      </div>
+      
+
+    </div>
+
+
+
+
+      <div class="attribution text-center">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">AKINLOLU OGUNLEYE</a>.
+      </div>
+  </div>
+  
+
+
+  
+
+
+
+
+<!--  Overview - Toay-->
+
+  <!- class ="pageviews"-Page Views
+  87
+  3% class = "stat"-->
+
+  <!--Likes
+  52
+  2%-->
+
+  <!--Likes
+  5462
+  2257%-->
+
+  <!--Profile Views
+  52k
+  1375%-->
+
+  <!--Retweets
+  117
+  303%-->
+
+  <!--Likes
+  507
+  553%-->
+
+  <!--Likes
+  107
+  19%-->
+
+  <!--Total Views
+  1407
+  12%-->
+  
+  
+
+
+<script src = "./app.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+  <script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+  <script src="fontawesome/js/all.js"></script>
+</body>
+</html>

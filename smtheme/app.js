@@ -8,6 +8,15 @@ const mode = document.querySelector('#mode')
 const followerCard = Array.from(document.querySelectorAll('.followerCard'))
 const overviewCard = Array.from(document.querySelectorAll('.overview-card'))
 const wrapper = document.querySelector('#wrapper')
+const loading = document.querySelector('#loadinng')
+
+!window.addEventListener('load', e=>{
+	e.preventDefault()
+	loading.classList.remove('d-none')
+	loading.classList.add('d-block')
+	
+
+})
 toggler.addEventListener('click', event=>{
 	event.preventDefault()
 

@@ -337,3 +337,23 @@ h1, h2, h3, h4, h5, h6, p{
 		display:block!important;
 	}
 }
+
+
+#loading {
+	display:inline-block;
+	width: 3.5rem;
+	height: 3.5rem;
+	border: solid 0.5rem;
+	border-top-color: #ff78aa;
+	border-radius: 50%;
+	animation: spin 1s infinite ease-in-out;
+	position:absolute;
+	left: 50%;
+	top: 15%;
+}
+
+@keyframes spin {
+	to {
+		transform:rotate(360deg)
+	}
+}

@@ -1615,7 +1615,8 @@ b, strong {
 
 .site-header .navigation .navbar-brand {
   height: auto;
-  width: 80px;
+  width: 120px;
+  margin-top:-20px;
 }
 
 .site-header #navbar {
@@ -7412,6 +7413,10 @@ b, strong {
   font-size: 26px;
   font-size: 1.73333rem;
   margin: 0 0 1.5em;
+}
+.card {
+  margin-bottom: 60px;
+
 }
 
 @media (max-width: 991px) {

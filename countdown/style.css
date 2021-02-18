@@ -5,7 +5,8 @@ body{
     padding:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:  hsl(234, 17%, 12%);
-    background-image: url('./images/bg-stars.svg')
+    background-image: url('./images/bg-stars.svg');
+    overflow-x: hidden!important;
 }
 
 .container{
@@ -70,3 +71,22 @@ footer {
     justify-content: center;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 375px){
+ 
+    .container{
+        display: block;
+        margin:auto;
+        
+        
+    }
+#timer > div{
+    margin:10px;
+}
+#timer h1{
+    font-size: 40px;
+    font-weight: 900;
+    color:hsl(345, 95%, 68%);
+}
+}

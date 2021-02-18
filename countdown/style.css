@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    height: 100vh;
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  hsl(234, 17%, 12%);
+    background-image: url('./images/bg-stars.svg')
+}
+
+.container{
+    display: block;
+    margin:auto;
+    
+    
+}
+h3{
+    color:hsl(0, 0%, 100%);
+}
+#timer{
+    display: flex;
+    margin:auto;
+   
+    justify-content: center;
+}
+
+#timer > div{
+    margin:40px;
+}
+
+
+#timer h1{
+    font-size: 60px;
+    font-weight: 900;
+    color:hsl(345, 95%, 68%);
+}
+
+#timer p{
+    font-size: 14px;
+    color: hsl(237, 18%, 59%);
+}
+footer{
+   height: 100px; 
+   position:fixed;
+   bottom: 0%;
+   width:100%;
+
+}
+footer img{
+    width:20px;
+    margin-top: 20px;
+    margin-left:20px;
+    
+}
+footer img:hover{
+    color:hsl(345, 95%, 68%);
+    cursor:pointer;
+}
+footer {
+    background-image: url('./images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top:40px;
+    z-index: 5;
+    justify-content: center;
+}
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -17,14 +17,21 @@ let countDown = setInterval (() =>{
     
     day.innerHTML = days;
     hour.innerHTML = hours;
+    if(hours < 10){
+        hour.innerHTML = '0' + hours;
+    }
+
+    minute.innerHTML = minutes;
     if (minutes < 10) {
         minute.innerHTML = '0'+ minutes
     }
-    minute.innerHTML = minutes;
+   
+
+    second.innerHTML = seconds;
     if (seconds < 10) {
         second.innerHTML ='0'+ seconds 
     }
-    second.innerHTML = seconds;
+    
 
 
     if (interval < 0){

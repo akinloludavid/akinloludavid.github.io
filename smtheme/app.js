@@ -25,6 +25,7 @@ toggler.addEventListener('click', event=>{
 		themeSwitch.style.marginLeft = "20px";
 		themeSwitch.style.backgroundColor = "hsl(232, 19%, 15%)"
 		toggler.style.backgroundColor = "white"
+		
 		mode.innerText = "Dark Mode";
 		header.style.backgroundColor = "hsl(232, 19%, 15%)";
 		wrapper.style.backgroundColor = "hsl(230, 17%, 14%)";

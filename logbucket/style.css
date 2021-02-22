@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Mulish', sans-serif, monospace;
+    
+    overflow-x:hidden;
+}
+
+nav {
+    background-color: #0E9099;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    height: 50px;
+  
+}
+
+#myTab{
+    list-style-type: none;
+    margin-left: 10%;
+}
+.nav-item {
+    margin: 0px 40px 0 40px;
+    text-decoration: none;
+   
+}
+
+.nav-item .nav-link{
+    margin-top:20px;
+    margin-bottom:10px;
+    height: 60px;
+    padding-top:12px;
+    color:#ffffff;
+   
+}
+
+.nav-item .nav-link:focus{
+    background-color: #44b8c0;
+    color: #ffffff;
+    border-color: #44b8c0;
+}
+
+#profile {
+
+    color:#ffffff;
+    padding-top:20px;
+    margin-left: 20%;
+}
+
+#picture h5{
+    background-color:#A0C555 ;
+    height: 40px;
+    width:40px;
+    padding-top: 10px;
+    margin-top:-10px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+.interface {
+   height:100vh;
+  
+}
+.interface .console{
+    background-color: #000B1C;
+    color:#ffffff;
+    padding-left:5%;
+}
+
+ #search {
+    background-color: #242E3C;
+    display:flex;
+    color:#ffffff;
+    margin: 30px 0;
+    outline:#ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+#search::placeholder{
+    color:#ffffff;
+}
+
+.results {
+    display: flex;
+
+}
+
+#match{
+    color: #6FAB4D;
+    margin-right: 20px;
+
+}
+
+#source {
+    color: #00E1DC;
+}
+
+.logInput{
+    padding: 5% 5%;
+}
+
+.selection {
+    width: 70%;
+    border:none;
+    border-bottom: 1px solid #EDEDED;
+    padding-right: 20%;
+    padding-bottom: 10px;
+}
+h4 {
+    margin-top: 50px;
+}

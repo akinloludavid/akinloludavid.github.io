@@ -8070,5 +8070,13 @@ b, strong {
 .team-section .grid .details h3 + span {
   color: #ffbd34;
 }
+@media (max-width: 375px){
+  .theme-btn{
+    margin-top: 20px;
+  }
+  .slide-title h2{
+    font-size: 28px!important;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

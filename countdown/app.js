@@ -34,7 +34,12 @@ let countDown = setInterval (() =>{
     
 
 
-    if (interval < 0){
-        clearInterval(countDownDate)
+    if (interval <= 0){
+        clearInterval(countDown)
+        hour.innerHTML = '00'
+        minute.innerHTML = '00'
+        second.innerHTML = '00'
+        day.innerHTML = '00'
+        document.getElementById('launch').innerHTML = "Time Expired"
     }
 }, 1000)

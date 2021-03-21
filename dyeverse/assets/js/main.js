@@ -1,9 +1,4 @@
-/**
-* Template Name: Arsha - v2.3.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -201,3 +196,24 @@
   });
 
 })(jQuery);
+
+
+let greeting = document.getElementById('greeting');
+
+let myDate = new Date()
+
+let currentHour = myDate.getHours()
+
+if(currentHour == 0 && currentHour <12){
+  greeting.innerHTML = 'good morning <i class="bx bx-sun"></i>, have a wonderful day ahead';
+ 
+}
+else if (currentHour > 12 && currentHour <17){
+  greeting.innerHTML = 'good afternoon <i class="bx bx-sun"></i>, hope you\'re enjoying your day';
+
+}
+
+else {
+  greeting.innerHTML = 'good evening,<i class="bx bx-moon"></i> trust you had a good day'
+
+}

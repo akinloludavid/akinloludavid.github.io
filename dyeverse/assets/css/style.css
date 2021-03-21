@@ -395,6 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .container {
   padding-top: 72px;
+
 }
 
 #hero h1 {
@@ -495,15 +496,17 @@ h1, h2, h3, h4, h5, h6 {
   #hero .btn-get-started {
     font-size: 16px;
     padding: 10px 24px 11px 24px;
+    margin-top: -20px!important;
   }
   #hero .btn-watch-video {
     font-size: 16px;
     padding: 10px 0 8px 40px;
     margin-left: 20px;
   }
-  #hero .btn-watch-video i {
-    font-size: 32px;
-    top: 7px;
+ 
+  #hero .container {
+    padding-top: 48px;
+  
   }
 }
 
@@ -1479,5 +1482,11 @@ section {
   }
   #getstarted {
     display:none;
+  }
+  #hero-started{
+    margin-bottom:150px;
+  }
+  #pricing .container-fluid{
+    padding:2%;
   }
 }

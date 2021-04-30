@@ -204,7 +204,7 @@ let myDate = new Date()
 
 let currentHour = myDate.getHours()
 
-if(currentHour == 0 && currentHour <12){
+if(currentHour < 12){
   greeting.innerHTML = 'good morning <i class="bx bx-sun"></i>, have a wonderful day ahead';
  
 }

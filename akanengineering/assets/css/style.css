@@ -153,7 +153,14 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
-
+.training-section{
+  margin:40px 0px;
+}
+.training-options{
+  margin-bottom:20px;
+  border-bottom:1px solid #06163a;
+  padding:10px 0;
+}
 @media (max-width: 991px) {
   body {
     font-size: 15px;
@@ -316,6 +323,9 @@ b, strong {
   display: inline-block;
   -webkit-animation: rotating linear 2s infinite;
   animation: rotating linear 2s infinite;
+}
+#active{
+  color:#ffbd34;
 }
 
 .contact-validation-active #success,
